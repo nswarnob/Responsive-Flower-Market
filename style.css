@@ -137,5 +137,74 @@ body{
     font-weight: 400;
     margin-top: 0.6rem;
     margin-bottom: 0.5rem;
+}
 
+/* second-section styles */
+.second-section{
+    margin: 3rem 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+    width: 100%;
+}
+.icon{
+   width: 15rem;
+   height: 15rem;
+   margin-bottom: -140px;
+   margin-left: -110px;
+   filter: drop-shadow(4px 10px 4px 0 (rgba(0, 0, 0, 0.25))  )
+}
+
+
+.store-img{
+   background-color:linear(rgba(197, 112, 70, 0.8356));
+   height: 65vh;
+   width: 50%;
+   z-index: -1;
+}
+.sec-content{
+    width: 50%;
+    margin: 0;
+    text-align: start;
+}
+.sec-title{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container ul{
+    font-size: 1.3rem;
+}
+.container ul li{
+    margin-bottom: 1rem;
+}
+
+/* third section styles */
+.deals-des{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.deals-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin:7.5rem 9rem ;
+}
+.deals-img .img-3{
+    width: 750px;
+    height: 420px;
+    border-radius: 1rem;
+}
+
+.twoinone .img-1{
+    margin-bottom:1rem ;
+    border-radius: 1rem;
+}
+.twoinone .img-2{
+    border-radius: 1rem;
 }
